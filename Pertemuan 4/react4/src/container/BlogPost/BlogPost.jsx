@@ -15,7 +15,7 @@ class BlogPost extends Component{
     } 
 
     ambilDataDariServerAPI = () => {
-        fetch('http://localhost:3001/posts') // alamat URL API yang akan di ambil
+        fetch('https://jsonplaceholder.typicode.com/posts') // alamat URL API yang akan di ambil
         .then(response => response.json()) // response dari API dalam bentuk JSON
         .then(jsonHasilAmbilDariAPI => {
             this.setState({
