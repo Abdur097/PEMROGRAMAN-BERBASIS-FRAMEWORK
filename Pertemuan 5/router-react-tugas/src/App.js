@@ -37,11 +37,11 @@ export default function AuthExample() {
             } 
           ></Route>
           <Route 
-            path="/private/barang/Elektronik/*" 
+            path="/private/barang/Hoodie/*" 
             element={
               <PrivateRoute >
                 <Barangs >
-                  <BarangElektroniks />
+                  <BarangHoodies />
                 </Barangs>
               </PrivateRoute>
             } 
@@ -121,45 +121,45 @@ function Barangs() {
       <h2>Barang</h2>
       <ul>
         <li>
-          <Link to={"/private/barang/Elektronik"}>Elektronik</Link>
+          <Link to={"/private/barang/Hoodie"}>Hoodie</Link>
         </li>
         <li>
-          <Link to={"/private/barang/Pakaian"}>Pakaian</Link>
+          <Link to={"/private/barang/Sweater"}>Sweater</Link>
         </li>
         <li>
-          <Link to={"/private/barang/Sepatu"}>Sepatu</Link>
+          <Link to={"/private/barang/Jaket"}>Jaket</Link>
         </li>
       </ul>
 
       <Routes>
         {/* <Route path="/" element={<h3>Harap pilih barang.</h3>} /> */}
-        <Route path="/private/barang/Elektronik" element={<BarangElektroniks />} />
-        <Route path="/private/barang/Pakaian" element={<BarangElektroniks />} />
-        <Route path="/private/barang/Sepatu" element={<BarangElektroniks />} />
+        <Route path="/private/barang/Hoodie" element={<BarangHoodies />} />
+        <Route path="/private/barang/Sweater" element={<BarangHoodies />} />
+        <Route path="/private/barang/Jaket" element={<BarangHoodies />} />
       </Routes>
     </div>
   );
 }
 
-function BarangElektroniks() {
+function BarangHoodies() {
   return (
     <div>
-      <h2>Barang Elektronik</h2>
+      <h2>Barang Hoodie</h2>
     </div>
   );
 }
 
-function BarangPakaian() {
+function BarangSweater() {
   return (
     <div>
-      <h2>Barang Pakaian</h2>
+      <h2>Barang Sweater</h2>
     </div>
   );
 }
-function BarangSepatu() {
+function BarangJaket() {
   return (
     <div>
-      <h2>Barang Sepatu</h2>
+      <h2>Barang Jaket</h2>
     </div>
   );
 }
