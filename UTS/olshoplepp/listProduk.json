@@ -4,14 +4,14 @@
       "id": 1,
       "nama": "Aqua Kulkas AQR-D270",
       "harga": 2500000,
-      "stok": 9,
+      "stok": 8,
       "gambar": "./images/kulkas1.jpg"
     },
     {
       "id": 2,
       "nama": "Aqua Kulkas AQR-D181",
       "harga": 1500000,
-      "stok": 10,
+      "stok": 9,
       "gambar": "./images/kulkas2.jpg"
     },
     {
@@ -32,7 +32,7 @@
       "id": 5,
       "nama": "Aqua Kulkas AQR-D251",
       "harga": 2400000,
-      "stok": 11,
+      "stok": 10,
       "gambar": "./images/kulkas5.jpg"
     },
     {
