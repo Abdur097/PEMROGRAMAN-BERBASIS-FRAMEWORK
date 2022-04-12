@@ -1,21 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './App.jsx';
 import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import CustomFormDemo from './CustomForm/CustomFormDemo';
-import LoaderDemo from './LoadDemo/LoaderDemo';
-import GenericContainerDemo from './GenericContainer/GenericContainerDemo';
-import RequireAuthDemo from './ProtectedRoutes/RequireAuthDemo';
-import RefsDemo from './RefsDemo/RefsDemo';
+import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.render(
-  // <CustomFormDemo/>,
-  <LoaderDemo/>,
-  // <GenericContainerDemo/>,
-  // <RequireAuthDemo/>,
-  // <RefsDemo/>,
+ReactDOM.render(<BrowserRouter>
+<App />
+</BrowserRouter>,
   document.getElementById('root')
 );
 

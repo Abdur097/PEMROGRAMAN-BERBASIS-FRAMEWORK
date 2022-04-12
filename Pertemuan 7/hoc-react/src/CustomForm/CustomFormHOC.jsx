@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React, {Component} from "react";
 
-const CustomForm = (propState) => ({ propName, propListName }) => WrappedComponent => {
-   
+const CustomForm = (propState) => ({propName, propListName}) => WrappedComponent => {
     return class CustomForm extends Component {
         constructor(props) {
             super(props);
-            propState[propListName] = [];
+            propState[propListName] =[]
             this.state = propState;
 
             this.handleSubmit = this.handleSubmit.bind(this);
@@ -13,28 +12,27 @@ const CustomForm = (propState) => ({ propName, propListName }) => WrappedCompone
         }
 
         handleSubmit() {
-            this.setState(prevState => { 
+            this.setState(prevState => {
                 return ({
-                    [propListName]: [...prevState[propListName], this.state[propName]]
+                    [propListName]: [...prevState[propListName], prevState[propName]],
                 })
-            }, () => console.log(this.state[propListName]))
-        }
+        }, () => console.log(this.state[propListName]))
+    };
 
         handleChange(name, value) {
-
             this.setState(prevState => (
-                { [propName]: { ...prevState[propName], [name]: value } }))
-        }
+                {[propName]: {...prevState[propName], [name]: value}}));
+            }
 
-        render() {
-            return (
-                <div>
-                    <WrappedComponent {...this.props} {...this.state} onChange={this.handleChange} onSubmit={this.handleSubmit} />
-    The values are { JSON.stringify(this.state[propListName],null, 2)}
-                </div>
-            )
+            
+            render() {
+                return (
+                    <div>
+                        <WrappedComponent {...this.props} {...this.state} onSubmit={this.handleSubmit} onChange={this.handleChange} />
+                        The Value Are {JSON.stringify(this.state[propListName], null, 2)}
+                    </div>
+                )
+            }
         }
-    }
 }
-
 export default CustomForm;
