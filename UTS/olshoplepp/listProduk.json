@@ -2,73 +2,73 @@
   "produk": [
     {
       "id": 1,
-      "nama": "Infinix INBook X1",
-      "harga": 6100000,
+      "nama": "Aqua Kulkas AQR-D270",
+      "harga": 2500000,
       "stok": 9,
-      "gambar": "./images/laptop1.jpg"
+      "gambar": "./images/kulkas1.jpg"
     },
     {
       "id": 2,
-      "nama": "Lenovo ThinkPad T410",
-      "harga": 2600000,
+      "nama": "Aqua Kulkas AQR-D181",
+      "harga": 1500000,
       "stok": 10,
-      "gambar": "./images/laptop2.jpg"
+      "gambar": "./images/kulkas2.jpg"
     },
     {
       "id": 3,
-      "nama": "Axioo MyBook 14",
-      "harga": 3400000,
+      "nama": "Sharp SJ-195MD-SR",
+      "harga": 2500000,
       "stok": 13,
-      "gambar": "./images/laptop3.jpg"
+      "gambar": "./images/kulkas3.jpg"
     },
     {
       "id": 4,
-      "nama": "Lenovo Legion 5",
-      "harga": 12200000,
+      "nama": "Sharp Kulkas SJ-X167MG",
+      "harga": 1600000,
       "stok": 10,
-      "gambar": "./images/laptop4.jpg"
+      "gambar": "./images/kulkas4.jpg"
     },
     {
       "id": 5,
-      "nama": "ASUS Zenbook 14 UX435EG-AI511NP",
-      "harga": 13800000,
+      "nama": "Aqua Kulkas AQR-D251",
+      "harga": 2400000,
       "stok": 11,
-      "gambar": "./images/laptop5.jpg"
+      "gambar": "./images/kulkas5.jpg"
     },
     {
       "id": 6,
-      "nama": "ASUS Vivobook A509MA-HD421",
-      "harga": 6200000,
+      "nama": "Polytron SCN 231",
+      "harga": 2900000,
       "stok": 14,
-      "gambar": "./images/laptop6.jpg"
+      "gambar": "./images/kulkas6.jpg"
     },
     {
       "id": 7,
-      "nama": "Xiaomi RedmiBook 15",
-      "harga": 6000000,
+      "nama": "Aqua Kulkas AQR-D275R",
+      "harga": 3200000,
       "stok": 14,
-      "gambar": "./images/laptop7.jpg"
+      "gambar": "./images/kulkas7.jpg"
     },
     {
       "id": 8,
-      "nama": "ASUS VivoBook A409MA-FHD421",
-      "harga": 5000000,
+      "nama": "Aqua Kulkas AQR-D261",
+      "harga": 2600000,
       "stok": 17,
-      "gambar": "./images/laptop8.jpg"
+      "gambar": "./images/kulkas8.jpg"
     },
     {
       "id": 9,
-      "nama": "Lenovo ThinkPad X220",
-      "harga": 3600000,
+      "nama": "Polytron SCN 180",
+      "harga": 3100000,
       "stok": 7,
-      "gambar": "./images/laptop9.jpg"
+      "gambar": "./images/kulkas9.jpg"
     },
     {
       "id": 10,
-      "nama": "Lenovo Yoga C930-9KID",
-      "harga": 7000000,
+      "nama": "Sharp Kulkas SJ-236MG-GB",
+      "harga": 2800000,
       "stok": 8,
-      "gambar": "./images/laptop10.jpg"
+      "gambar": "./images/kulkas10.jpg"
     }
   ]
 }
