@@ -31,6 +31,14 @@
       "harga": 2400000,
       "qty": 1,
       "subTotal": 2400000
+    },
+    {
+      "id": 5,
+      "idProduk": 6,
+      "nama": "Polytron SCN 231",
+      "harga": 2900000,
+      "qty": 1,
+      "subTotal": 2900000
     }
   ]
 }
